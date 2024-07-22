@@ -11,6 +11,11 @@ export const HeaderWrapper = styled.div`
     right: 0;
   }
 
+  &.no-fixed {
+    position: absolute;
+    width: 100%;
+  }
+
   .content {
     position: relative;
     z-index: 9;

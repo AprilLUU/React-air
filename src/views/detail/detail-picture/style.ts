@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
 export const DetailPictureWrapper = styled.div`
-  position: absolute;
+  position: relative;
   top: 80px;
 
-  > .pictures {
+  .pictures {
     display: flex;
     height: 600px;
     background-color: #000;

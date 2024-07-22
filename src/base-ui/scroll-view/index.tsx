@@ -20,7 +20,8 @@ const ScrollView: FC<IProps> = memo((props) => {
   useEffect(() => {
     const contentEl = scrollContentRef.current!
     const distance = contentEl.scrollWidth - contentEl.clientWidth
-    // console.log(contentEl.scrollWidth, contentEl.clientWidth, distance)
+    console.log(contentEl)
+    console.log(contentEl.scrollWidth, contentEl.clientWidth, distance)
     distanceRef.current = distance
     setShowRight(distance > 0)
   }, [props.children])

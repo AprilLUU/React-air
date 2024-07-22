@@ -11,8 +11,8 @@ export default defineConfig({
     alias: {
       "@": resolve("src")
     }
-  },
-  build: {
-    sourcemap: true
   }
+  // build: {
+  //   sourcemap: true
+  // }
 })

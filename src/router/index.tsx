@@ -14,15 +14,15 @@ const routes: RouteObject[] = [
   },
   {
     path: "/home",
-    element: <Home/>
+    element: <Home />
   },
   {
     path: "/entire",
-    element: <Entire/>
+    element: <Entire />
   },
   {
     path: "/detail",
-    element: <Detail/>
+    element: <Detail />
   },
   {
     path: "*",

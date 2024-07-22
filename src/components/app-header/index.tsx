@@ -40,7 +40,8 @@ const AppHeader: FC<IProps> = memo(() => {
     <ThemeProvider theme={newTheme}>
       <HeaderWrapper
         className={classNames({
-          fixed: headerConfig.isFixed
+          fixed: headerConfig.isFixed,
+          "no-fixed": !headerConfig.isFixed
         })}
       >
         <div className="content">
