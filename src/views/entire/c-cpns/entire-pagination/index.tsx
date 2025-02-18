@@ -20,7 +20,7 @@ const EntirePagination: FC<IProps> = memo(() => {
     }),
     appShallowequal
   )
-  const startCount = currentPage * pageSize+ 1
+  const startCount = currentPage * pageSize + 1
   const endCount = (currentPage + 1) * pageSize
 
   const handlePageChange = (page: number) => {

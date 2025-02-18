@@ -53,8 +53,7 @@ const Home: FC<IProps> = memo(() => {
         {isEmptyObj(goodPriceInfo) && <HomeAreaV1 data={goodPriceInfo} />}
         {isEmptyObj(highScoreInfo) && <HomeAreaV1 data={highScoreInfo} />}
         {isEmptyObj(longforInfo) && <HomeLongFor data={longforInfo} />}
-        {isEmptyObj(plusInfo) && 
-        <HomeAreaV3 data={plusInfo} />}
+        {isEmptyObj(plusInfo) && <HomeAreaV3 data={plusInfo} />}
       </div>
     </HomeWrapper>
   )
