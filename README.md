@@ -444,3 +444,8 @@ export const SearchAreaWrapper = styled.div.withConfig({
 <SearchAreaWrapper isSearch={isAlpha || isSearch} />
 ```
 
+#### 5. 性能优化措施
+
+- 使用 memo 包裹组件，在 prop 不发生变化时不会重新渲染，浅层比较
+- useCallback 包裹传递给子组件的事件处理函数，返回记忆化的函数，为 memo 服务
+- useSelector shallowEqual 与 memo 同理
